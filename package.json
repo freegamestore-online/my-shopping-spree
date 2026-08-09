@@ -1,13 +1,13 @@
 {
-  "name": "APPNAME",
+  "name": "my-shopping-spree",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b"
+    "dev": "pnpm --filter @my-shopping-spree/web dev",
+    "build": "pnpm --filter @my-shopping-spree/web build",
+    "preview": "pnpm --filter @my-shopping-spree/web preview",
+    "typecheck": "pnpm --filter @my-shopping-spree/web exec tsc -b"
   }
 }

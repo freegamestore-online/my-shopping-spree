@@ -34,9 +34,9 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: "APPNAME",
-        short_name: "APPNAME",
-        description: "APPNAME — free forever",
+        name: "my shopping spree",
+        short_name: "my shopping spree",
+        description: "my shopping spree — free forever",
         start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
