@@ -291,7 +291,7 @@ function Scene({ onScore, onTime, onGameOver }: GameProps) {
   const keys    = useRef<Set<Dir>>(new Set());
   const [items, setItems]   = useState<ShopItem[]>(initialItems);
   const itemsRef            = useRef<ShopItem[]>(items);
-  const [pops,  setPops]    = useState<PopLabel[]>([]);
+  const [, setPops]         = useState<PopLabel[]>([]);
   const popsRef             = useRef<PopLabel[]>([]);
 
   const scoreRef      = useRef(0);
